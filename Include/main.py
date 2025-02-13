@@ -48,7 +48,7 @@ def compute(data, model, tokenizer):
 
 if __name__ == '__main__':
     
-    df = pd.read_csv('C:\\Users\\VICTUS\\Desktop\\projs\\Include\\imdb_dataset.csv', engine = 'python')
+    df = pd.read_csv('imdb_dataset.csv', engine = 'python')
 
     # save_model(model, tokenizer, 'imdb_sentiment_model')
 
